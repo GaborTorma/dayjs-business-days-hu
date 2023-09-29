@@ -3,6 +3,7 @@
 	"version": "0.1.1",
 	"description": "DayJS business days plugin with hungarian holidays",
 	"main": "dist/index.js",
+	"types": "typings/index.d.ts",
 	"publishConfig": {
 		"access": "public"
 	},
