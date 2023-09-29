@@ -10,7 +10,7 @@
 	"scripts": {
 		"test": "jest --config ./jest.config.js",
 		"build": "tsc -p tsconfig.build.json && ts-cleaner",
-		"release": "dotenv release-it"
+		"release": "npm run build && dotenv release-it"
 	},
 	"repository": {
 		"type": "git",
