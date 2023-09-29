@@ -3,6 +3,9 @@
 	"version": "0.1.0",
 	"description": "DayJS business days plugin with hungarian holidays",
 	"main": "dist/index.js",
+	"publishConfig": {
+		"access": "public"
+	},
 	"scripts": {
 		"test": "jest --config ./jest.config.js",
 		"build": "tsc -p tsconfig.build.json && ts-cleaner",
