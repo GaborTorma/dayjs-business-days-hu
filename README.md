@@ -1,4 +1,4 @@
-# @gabortorma/dayjs-working-days-hu
+# @gabortorma/dayjs-business-days-hu
 
 [@reediculous456/dayjs-business-days](https://github.com/reediculous456/dayjs-business-days) with updated hungarian holidays and additional working days from 2010 to 2024.
 
