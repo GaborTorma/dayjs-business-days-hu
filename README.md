@@ -34,4 +34,4 @@ dayjs.extend(dayjsBusinessDays, huOptions)
 
 ## Usage Guide
 
-See the original release: [@reediculous456/dayjs-business-days](https://github.com/reediculous456/dayjs-business-days)
+See the original plugin: [@reediculous456/dayjs-business-days](https://github.com/reediculous456/dayjs-business-days)
