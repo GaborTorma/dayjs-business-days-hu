@@ -1,6 +1,6 @@
 {
 	"name": "@gabortorma/dayjs-business-days-hu",
-	"version": "1.0.4",
+	"version": "2.0.0",
 	"description": "DayJS business days plugin with hungarian holidays",
 	"main": "dist/index.js",
 	"types": "typings/index.d.ts",
