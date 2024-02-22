@@ -5,6 +5,8 @@ export interface SpecialDays {
 	weekday: string
 }
 
+// Downloaded from https://szunetnapok.hu
+
 export const specialDays: Array<SpecialDays> = [
 	{ date: '2010-01-01', name: 'Újév napja', type: '1', weekday: '5' },
 	{ date: '2010-03-15', name: '1848-as forradalom ünnepe', type: '1', weekday: '1' },
@@ -247,10 +249,10 @@ export const specialDays: Array<SpecialDays> = [
 	{ date: '2024-08-20', name: 'Államalapítás ünnepe', type: '1', weekday: '2' },
 	{ date: '2024-10-23', name: '1956-os forradalom ünnepe', type: '1', weekday: '3' },
 	{ date: '2024-11-01', name: 'Mindenszentek', type: '1', weekday: '5' },
-	{ date: '2024-12-07', name: 'Áthelyezett munkanap (2024-12-23)', type: '2', weekday: '6' },
+	{ date: '2024-12-07', name: 'Áthelyezett munkanap (2024-12-24)', type: '2', weekday: '6' },
 	{ date: '2024-12-14', name: 'Áthelyezett munkanap (2024-12-27)', type: '2', weekday: '6' },
 	{ date: '2024-12-24', name: 'Szenteste', type: '1', weekday: '2' },
 	{ date: '2024-12-25', name: 'Karácsony', type: '1', weekday: '3' },
 	{ date: '2024-12-26', name: 'Karácsony', type: '1', weekday: '4' },
-	{ date: '2024-12-27', name: 'Áthelyezett pihenőnap (2024-12-26)', type: '1', weekday: '5' },
+	{ date: '2024-12-27', name: 'Áthelyezett pihenőnap (2024-12-14)', type: '1', weekday: '5' },
 ]
