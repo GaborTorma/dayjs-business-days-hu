@@ -16,21 +16,22 @@ import dayjs from '@gabortorma/dayjs-business-days-hu'
 dayjs('2020-11-01').isHoliday() // true
 dayjs('2020-10-15').isBusinessDay() // true
 ```
+
 ## Import plugin options only
 
 ```javascript
 import { huOptions } from '@gabortorma/dayjs-business-days-hu/dist/options'
 ```
+
 #### Usage
+
 ```javascript
 import dayjs from 'dayjs'
 import dayjsBusinessDays from 'dayjs-business-days2'
 import { huOptions } from '@gabortorma/dayjs-business-days-hu/dist/options'
 
 dayjs.extend(dayjsBusinessDays, huOptions)
-
 ```
-
 
 ## Usage Guide
 

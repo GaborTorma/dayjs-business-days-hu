@@ -1,7 +1,16 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#293109",
-        "titleBar.activeBackground": "#39440C",
-        "titleBar.activeForeground": "#F8FCEC"
-    }
+  // Enable the ESlint flat config support
+  "eslint.experimental.useFlatConfig": true,
+
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#886726",
+    "editorBracketHighlight.foreground2": "#886726",
+    "editorBracketHighlight.foreground3": "#886726",
+    "editorBracketHighlight.foreground4": "#886726",
+    "editorBracketHighlight.foreground5": "#886726",
+    "editorBracketHighlight.foreground6": "#886726",
+    "activityBar.background": "#293109",
+    "titleBar.activeBackground": "#39440C",
+    "titleBar.activeForeground": "#F8FCEC"
+  }
 }
