@@ -5,12 +5,10 @@ const special_days_1 = require("./special-days");
 const holidays = [];
 const additionalWorkingDays = [];
 for (const day of special_days_1.specialDays) {
-    if (day.type === '1') {
+    if (day.type === '1')
         holidays.push(day.date);
-    }
-    else {
+    else
         additionalWorkingDays.push(day.date);
-    }
 }
 exports.huOptions = {
     holidays,
